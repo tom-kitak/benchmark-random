@@ -1,9 +1,7 @@
-name: clustering
+name: random_clustering
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - python>=3.9
-  - numpy
-  - scikit-learn
-  - pandas
+  - python=3.12
+  - numpy=1.26.4
